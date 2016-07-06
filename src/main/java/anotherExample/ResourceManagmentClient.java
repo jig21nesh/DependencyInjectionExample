@@ -18,5 +18,7 @@ public class ResourceManagmentClient {
 
         System.out.println((resourceStore.get(5)).toString());
 
+        System.out.println(resourceStore.exists(5));
+
     }
 }

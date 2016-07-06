@@ -7,4 +7,5 @@ public interface ResourceStore {
     boolean exists(Integer id);
     void save(Resource resource);
     Resource get(Integer id);
+
 }
